@@ -16,7 +16,7 @@ class VK:
        response = requests.get(url, params={**self.params, **params})
        return response.json()
 
-access_token = 'vk1.a.RDvvcYoiOmKhc9SX0NHLBikwukv7xnd8AMcMLT1qwPqU34eqBOBm9c8gbKVyBsX1ePobIuIkbcAr1v-CeY0kwxP35r9t_eYVGUgSz514Uddk8fEJOSgb4n-FNAWOW452gGdVXOFRaat74NIsL_eWkYeCZ8GHgrPq8ziIdzYDbNJqXvlh9Qwaq6nJGo4vl04H'
+access_token = 'DbNJqXvlh9Qwaq6nJGo4vl04H'
 user_id = '1074315681'
 vk = VK(access_token, user_id)
 
