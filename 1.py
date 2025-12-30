@@ -10,7 +10,7 @@ class VK:
        self.params = {'access_token': self.token, 'v': self.version}
 
 
-
+#########################################################################
 
 
    def users_info(self):
