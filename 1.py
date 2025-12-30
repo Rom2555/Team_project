@@ -20,5 +20,5 @@ access_token = 'DbNJqXvlh9Qwaq6nJGo4vl04H'
 user_id = '1074315681'
 vk = VK(access_token, user_id)
 
-  
+
 print(vk.users_info())
