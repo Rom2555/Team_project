@@ -10,6 +10,9 @@ class VK:
        self.params = {'access_token': self.token, 'v': self.version}
 
 
+#########################################################################
+
+
    def users_info(self):
        url = 'https://api.vk.com/method/users.get'
        params = {'user_ids': self.id}
